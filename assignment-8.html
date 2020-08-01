@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Largest String</title>
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      
+    <script> 
+        // alert();
+        let stringtext = 'Web Development Tutorial';
+        var myArray = stringtext.split(" ");
+        var largword = '';
+        
+        for (var i = 0; i < myArray.length; i++){
+            if (myArray[i].length > largword.length){
+                largword = myArray[i];
+            } 
+        }
+        document.write(largword); 
+    
+</script>
+  </head>
+  <body> 
+  </body>
+</html>
+

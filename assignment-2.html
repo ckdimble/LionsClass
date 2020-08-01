@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Window Size</title>
+      <meta name=viewport content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="getResize()"  onresize="getResize()">
+    <div id="windowsize">
+    </div> 
+    <script>
+      
+        var getResize = function(){
+           wWidth =  document.documentElement.clientWidth;
+           wHeight =  document.documentElement.clientHeight;
+
+           console.log(wWidth + " " + wHeight);
+         } 
+         
+         
+    </script>
+  </body>
+</html>
+
